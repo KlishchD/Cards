@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package com.cards;
 
 public class Card {
 
@@ -11,7 +11,7 @@ public class Card {
     private final String SYNONYMS_TEXT = "Synonyms: ";
 
 
-    Card(String phrase, String meaning, String synonyms) {
+    public Card(String phrase, String meaning, String synonyms) {
         this.phrase = phrase;
         this.meaning = meaning;
         this.synonyms = synonyms;
